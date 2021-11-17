@@ -1,0 +1,36 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:local="clr-namespace:FlowDocumentDemo"
+              ColumnWidth="400" FontSize="14" FontFamily="Georgia">
+    <Paragraph FontSize="20" TextAlignment="Center">
+        Морской салат
+    </Paragraph>
+    <Table>
+        <Table.Columns>
+            <TableColumn/>
+            <TableColumn/>
+        </Table.Columns>
+    </Table>
+    
+    <Paragraph FontSize="16">
+        <Floater Width="300" HorizontalAlignment="Left">
+            <BlockUIContainer>
+                <Image Source="/Recipes/Images/mSalat.jpg"/>
+            </BlockUIContainer>
+        </Floater>Морской салат. Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата
+        Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата Рецепт салата
+    </Paragraph>
+    <Paragraph>
+        <Span FontSize="19" FontStyle="Italic" FontWeight="Bold">Ингредиенты:</Span></Paragraph>
+    <List FontSize="17">
+        <ListItem>
+            <Paragraph>Ингридиент1 200г</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>Ингридиент2 300г</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>Ингридиент3 400г</Paragraph>
+        </ListItem>
+    </List>
+
+</FlowDocument>

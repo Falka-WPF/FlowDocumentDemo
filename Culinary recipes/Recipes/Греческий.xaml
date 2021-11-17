@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:local="clr-namespace:FlowDocumentDemo"
+              ColumnWidth="400" FontSize="14" FontFamily="Georgia">
+    <Paragraph FontSize="20" TextAlignment="Center">
+        Греческий салат
+    </Paragraph>
+    <Table>
+        <Table.Columns>
+            <TableColumn/>
+            <TableColumn/>
+        </Table.Columns>
+    </Table>
+    
+    <Paragraph FontSize="16">
+        <Floater Width="300" HorizontalAlignment="Left">
+            <BlockUIContainer>
+                <Image Source="/Recipes/Images/salat.jpg"/>
+            </BlockUIContainer>
+        </Floater>
+        В небольшой банке смешайте оливковое масло, лимонный сок, измельченный чеснок, соль, перец и орегано. 
+        Закройте крышкой и хорошо встряхните, чтобы все перемешалось.
+        В большую миску выложите нарезанные небольшими дольками помидоры,
+        нарезанный полукруглыми кусочками огурец, нарезанный тонкими кольцами красный лук,
+        нарезанный тонкими полосками зеленый перец, нарезанную кубиками фету и маслины.
+        Перед подачей полейте заправкой, аккуратно перемешайте и посыпьте сверху свежемолотым черным перцем.
+    </Paragraph>
+    <Paragraph>
+        <Span FontSize="19" FontStyle="Italic" FontWeight="Bold">Ингредиенты:</Span></Paragraph>
+    <List FontSize="17">
+        <ListItem>
+            <Paragraph>Помидоры 200г</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>огурцы 200г</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>сыр фета 200г</Paragraph>
+        </ListItem>
+    </List>
+
+</FlowDocument>
